@@ -1,0 +1,12 @@
+generated: '2026-08-06'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: be.bio
+  https: false
+domains:
+- domain: be.bio
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false

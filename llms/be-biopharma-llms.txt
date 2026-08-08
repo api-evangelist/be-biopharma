@@ -1,0 +1,57 @@
+# Be Biopharma
+
+> Be Biopharma (Be Bio) was a Cambridge, Massachusetts clinical-stage biotechnology company
+> developing engineered B Cell Medicines (BCMs) — a patient's own B cells engineered to produce
+> a therapeutic protein — for genetic disease, cancer and other serious conditions.
+> It is a therapeutics developer, not a software company, and publishes no API.
+
+<!--
+generated: '2026-08-06'
+method: generated
+source: apis.yml (API Evangelist profile); provider publishes no llms.txt
+-->
+
+## What this is
+
+This file is published by API Evangelist as part of an independent, third-party profile of
+Be Biopharma. It is not authored or endorsed by the company.
+
+## API surface
+
+**None.** Be Biopharma has no public API, SDK, developer portal, webhook surface or
+machine-readable contract, and no evidence of one was ever published:
+
+- No `openapi.json`, `swagger.json`, GraphQL SDL, AsyncAPI or MCP endpoint on any company host.
+- No `api.`, `dev.`, `developer.`, `docs.` or `portal.` subdomain has ever been archived for `be.bio`.
+- Archived probes of `www.be.bio/.well-known/` (`security.txt`, `openid-configuration`,
+  `ai-plugin.json`) returned 404.
+- No GitHub organization; no first-party packages on npm, PyPI or RubyGems.
+
+## Company status
+
+As of 2026-08-06 the company's own domain `be.bio` no longer resolves — the authoritative
+nameservers return SOA only for both the apex and `www`. The site was last archived on
+2026-05-13. The company terminated its lead Phase 1/2 BeCoMe-9 trial of BE-101 in hemophilia B
+in June 2026 for stated strategic business reasons.
+
+## Background
+
+- Founded October 2020 by Longwood Fund with David Rawlings, M.D. and Richard James, Ph.D.
+  of Seattle Children's Research Institute.
+- Lead program BE-101: a functional Factor IX gene inserted into primary human B cells for
+  hemophilia B; FDA Orphan Drug and Fast Track designations.
+- Second program BE-102: hypophosphatasia.
+- Financing: $82M (October 2024); $92M Series C (January 2025).
+- First participant dosed in BeCoMe-9, July 2025.
+
+## Links
+
+- Website (currently unresolvable): https://be.bio/
+- Archived site: https://web.archive.org/web/20260513184102/https://be.bio/
+- LinkedIn: https://www.linkedin.com/company/be-biopharma-inc
+- Secondary-market listing: https://forgeglobal.com/be-biopharma_stock/
+
+## Profile artifacts
+
+- Domain security probe: security/be-biopharma-domain-security.yml
+- Profile: apis.yml
